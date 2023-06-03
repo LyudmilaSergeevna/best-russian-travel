@@ -10,3 +10,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+
+@media (max-width: 4320px) {
+  .root {
+    max-width: 4320px;
+  }
+}
