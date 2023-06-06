@@ -2,7 +2,7 @@
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   background-color: #2A2C2F;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,8 +11,5 @@
   -moz-text-size-adjust: 100%;
 }
 
-@media (max-width: 4320px) {
-  .root {
-    max-width: 4320px;
-  }
-}
+/* в чек-листе было сказано чтобы не было белых "ушей" при увеличении размера окна браузера
+не сообразила как по-другому сделать это */

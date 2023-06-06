@@ -1,11 +1,9 @@
-.header__links input[type='radio'] {
-  display: none;
-  margin-left: 18px;
-}
-
-.header__links input[type='radio']:checked + label {
-  border-bottom: 1px solid #ffffff;
-  margin-bottom: 6px;
+.header__links {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ gap: 18px;
+ margin-bottom: 6px;
 }
 
 @media (max-width: 767px) {

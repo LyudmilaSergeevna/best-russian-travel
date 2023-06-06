@@ -1,18 +1,18 @@
 .place__title {
   margin: 0;
   padding: 0;
-  max-height: 152px;
   font-size: 72px;
   font-weight: 900;
   color: #ffffff;
-  line-height: 1.05;
+  line-height: 1.06;
   box-sizing: border-box;
 }
 
 @media (max-width: 1023px) {
   .place__title {
+    max-width: 330px;
     font-size: 42px;
-    line-height: 1.09;
+    line-height: 1.1;
   }
 }
 
